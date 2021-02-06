@@ -1,0 +1,30 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.mapdiv {
+    width:50%;
+    height:50%;
+    margin:auto;
+
+}
+/* MAP STYLE */
+svg {
+    width:900px;
+    height:900px;
+}
+
+.land {
+    fill: #CCCCCC;
+    fill-opacity: 1;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:1.2;
+    transition: transform 0.25s ease-in-out;
+}
+.land:hover {
+    transform:scale(1.01);
+    fill: #ddd;
+}
