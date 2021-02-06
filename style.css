@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
-
+body {
+    position:relative;
+}
 .mapdiv {
     width:50%;
     height:50%;
@@ -27,4 +30,17 @@ svg {
 .land:hover {
     transform:scale(1.01);
     fill: #ddd;
+}
+.popUp {
+    padding:1em;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border-radius:20px;
+    background-color:black;
+    color:beige;
+    font-family: 'Ubuntu', sans-serif;
+}
+.city-name {
+    color:beige;
 }
